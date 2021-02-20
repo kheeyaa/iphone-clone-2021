@@ -1,0 +1,42 @@
+.nav-bar {
+  padding: 15px 20px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+.nav-bar__btn {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: inset -0.5em -0.4em 20px rgba(50, 50, 93, 0.11),
+    inset -0.2em -0.2em 10px rgba(0, 0, 0, 0.04);
+}
+.nav-bar__list .phone {
+  color: white;
+  background-color: #00de16;
+}
+.nav-bar__list .safari {
+  color: #0090e3;
+  font-size: 50px;
+}
+.nav-bar__list .message {
+  background-color: #fae100;
+  color: #3d2a27;
+}
+.nav-bar__list .youtube {
+  color: #e31e00;
+}

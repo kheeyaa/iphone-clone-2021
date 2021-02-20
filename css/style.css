@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+@import "reset.css";
+@import "index.css";
+@import "home.css";
+
+/* component */
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+  color: rgba(256, 256, 256, 0.8);
+}
